@@ -15,6 +15,14 @@
 		B67892F924A9ABFD00A0C0E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67892F724A9ABFD00A0C0E7 /* LaunchScreen.storyboard */; };
 		B678930424A9ABFD00A0C0E7 /* UICollectionSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678930324A9ABFD00A0C0E7 /* UICollectionSampleTests.swift */; };
 		B678930F24A9ABFD00A0C0E7 /* UICollectionSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678930E24A9ABFD00A0C0E7 /* UICollectionSampleUITests.swift */; };
+		B678931E24A9AD0600A0C0E7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678931C24A9AD0600A0C0E7 /* CollectionViewCell.swift */; };
+		B678931F24A9AD0600A0C0E7 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B678931D24A9AD0600A0C0E7 /* CollectionViewCell.xib */; };
+		B678932224A9EA2700A0C0E7 /* SelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678932024A9EA2700A0C0E7 /* SelectionCell.swift */; };
+		B678932324A9EA2700A0C0E7 /* SelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B678932124A9EA2700A0C0E7 /* SelectionCell.xib */; };
+		B6C9626224C673ED004A173C /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9626024C673ED004A173C /* SectionHeaderView.swift */; };
+		B6C9626324C673ED004A173C /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C9626124C673ED004A173C /* SectionHeaderView.xib */; };
+		B6C9626524C686DD004A173C /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9626424C686DD004A173C /* Entities.swift */; };
+		B6C9626724C68703004A173C /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C9626624C68703004A173C /* TestData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		B678930A24A9ABFD00A0C0E7 /* UICollectionSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B678930E24A9ABFD00A0C0E7 /* UICollectionSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionSampleUITests.swift; sourceTree = "<group>"; };
 		B678931024A9ABFD00A0C0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B678931C24A9AD0600A0C0E7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B678931D24A9AD0600A0C0E7 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		B678932024A9EA2700A0C0E7 /* SelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCell.swift; sourceTree = "<group>"; };
+		B678932124A9EA2700A0C0E7 /* SelectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionCell.xib; sourceTree = "<group>"; };
+		B6C9626024C673ED004A173C /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		B6C9626124C673ED004A173C /* SectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
+		B6C9626424C686DD004A173C /* Entities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
+		B6C9626624C68703004A173C /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +116,19 @@
 			isa = PBXGroup;
 			children = (
 				B67892EC24A9ABFB00A0C0E7 /* AppDelegate.swift */,
+				B6C9626424C686DD004A173C /* Entities.swift */,
+				B678931C24A9AD0600A0C0E7 /* CollectionViewCell.swift */,
 				B67892EE24A9ABFB00A0C0E7 /* SceneDelegate.swift */,
+				B6C9626024C673ED004A173C /* SectionHeaderView.swift */,
+				B678932024A9EA2700A0C0E7 /* SelectionCell.swift */,
+				B6C9626624C68703004A173C /* TestData.swift */,
 				B67892F024A9ABFB00A0C0E7 /* ViewController.swift */,
+				B678931D24A9AD0600A0C0E7 /* CollectionViewCell.xib */,
+				B6C9626124C673ED004A173C /* SectionHeaderView.xib */,
+				B678932124A9EA2700A0C0E7 /* SelectionCell.xib */,
+				B67892F724A9ABFD00A0C0E7 /* LaunchScreen.storyboard */,
 				B67892F224A9ABFB00A0C0E7 /* Main.storyboard */,
 				B67892F524A9ABFD00A0C0E7 /* Assets.xcassets */,
-				B67892F724A9ABFD00A0C0E7 /* LaunchScreen.storyboard */,
 				B67892FA24A9ABFD00A0C0E7 /* Info.plist */,
 			);
 			path = UICollectionSample;
@@ -233,7 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67892F924A9ABFD00A0C0E7 /* LaunchScreen.storyboard in Resources */,
+				B6C9626324C673ED004A173C /* SectionHeaderView.xib in Resources */,
+				B678932324A9EA2700A0C0E7 /* SelectionCell.xib in Resources */,
 				B67892F624A9ABFD00A0C0E7 /* Assets.xcassets in Resources */,
+				B678931F24A9AD0600A0C0E7 /* CollectionViewCell.xib in Resources */,
 				B67892F424A9ABFB00A0C0E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +287,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67892F124A9ABFB00A0C0E7 /* ViewController.swift in Sources */,
+				B6C9626224C673ED004A173C /* SectionHeaderView.swift in Sources */,
 				B67892ED24A9ABFB00A0C0E7 /* AppDelegate.swift in Sources */,
+				B6C9626724C68703004A173C /* TestData.swift in Sources */,
+				B678932224A9EA2700A0C0E7 /* SelectionCell.swift in Sources */,
+				B6C9626524C686DD004A173C /* Entities.swift in Sources */,
+				B678931E24A9AD0600A0C0E7 /* CollectionViewCell.swift in Sources */,
 				B67892EF24A9ABFB00A0C0E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

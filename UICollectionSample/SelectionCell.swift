@@ -8,15 +8,27 @@
 
 import UIKit
 
+// TODO: UN_USED
 class SelectionCell: UICollectionViewCell {
-    @IBOutlet var checkbox: UIImageView!
-    @IBOutlet var label: UILabel!
+    @IBOutlet private var checkbox: UIImageView!
+    @IBOutlet private var label: UILabel!
+    
+    override var isSelected: Bool {
+        didSet {
+             configureCheckbox()
+        }
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        configureCheckbox()
     }
     
     
+    func configureCheckbox() {
+        self.checkbox.image = UIImage(systemName: isSelected ? "checkmark.circle.fill" : "circle")
+    }
+
 }
 

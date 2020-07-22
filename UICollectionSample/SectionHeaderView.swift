@@ -9,7 +9,9 @@
 import UIKit
 
 class SectionHeaderView: UICollectionReusableView {
+    static let reuseIdentifier = "SectionHeaderView"
 
+    @IBOutlet var label: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

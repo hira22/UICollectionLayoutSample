@@ -10,6 +10,9 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet var label: UILabel!
+    static let reuseIdentifier = "CollectionViewCell"
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
