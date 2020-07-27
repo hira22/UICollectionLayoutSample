@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var dataSource: UICollectionViewDiffableDataSource<String, Question.Option.Selection>! = nil
     
     // MARK: listLayout
-    private let listLayout: UICollectionViewLayout = {
+    private lazy var listLayout: UICollectionViewLayout = {
         // Item
         let itemSize: NSCollectionLayoutSize = .init(widthDimension: .fractionalWidth(1.0),
                                                      heightDimension: .fractionalHeight(1.0))
